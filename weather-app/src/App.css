@@ -1,0 +1,61 @@
+/* src/App.css */
+.App {
+  text-align: center;
+}
+
+header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background: #282c34;
+  color: white;
+  padding: 10px;
+}
+
+header nav ul {
+  list-style: none;
+  padding: 0;
+}
+
+header nav ul li {
+  display: inline;
+  margin: 0 10px;
+}
+
+.current-location,
+.hourly-forecast,
+.daily-forecast,
+.overview {
+  margin-top: 80px;
+  padding: 20px;
+}
+
+.hourly-forecast .hour,
+.daily-forecast .day {
+  display: inline-block;
+  margin: 10px;
+  padding: 10px;
+  border: 1px solid #ccc;
+}
+
+/* src/App.css */
+
+.saved-locations {
+  display: flex;
+  overflow-x: scroll;
+  padding: 1rem;
+  gap: 1rem;
+}
+
+.location-card {
+  background: #f0f0f0;
+  border: 1px solid #ccc;
+  padding: 1rem;
+  min-width: 200px;
+  text-align: center;
+  position: relative;
+}
+
+.location-card button {
+  margin-top: 0.5rem;
+}
